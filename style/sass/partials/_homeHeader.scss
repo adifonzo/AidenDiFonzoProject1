@@ -1,0 +1,24 @@
+@use "./variables";
+
+header {
+    background-image: url(../Boat-Ride-Adventures-final-assets/home-header.jpg);
+    background-size: cover;
+    height: 60vh;
+    .headerFlex {
+        display: flex;
+        img {
+            height: 500px;
+            width: 650px;
+            margin-top: 90px;
+
+        }
+        
+        h1 {
+        margin-left: 7rem;
+        width: 50%;
+        margin-top: 310px;
+        font-style: italic;
+        }
+    }
+}
+

@@ -1,0 +1,20 @@
+@use "./variables";
+
+.days {
+    background-color: variables.$lightBlue;
+
+    height: 50vh;
+    .daysText {
+        width: 60%;
+        margin: 0 auto;
+        h3 {
+        text-align: center;
+        color: variables.$navyBlue;
+        }
+    }
+}
+
+.bannerImg {
+    background-image: url(../Boat-Ride-Adventures-final-assets/banner.jpg);
+    height: 30vh;
+}

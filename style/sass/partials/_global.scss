@@ -1,0 +1,26 @@
+@use "./variables";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homeWrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.readMore {
+    background-color: variables.$yellow;
+    padding: 5px;
+    text-decoration: none;
+    color: variables.$navyBlue;
+    font-family: english, sans-serif;
+    font-weight: light;
+    display: block;
+    width: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+}

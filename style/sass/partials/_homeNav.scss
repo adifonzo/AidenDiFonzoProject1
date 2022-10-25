@@ -1,0 +1,27 @@
+@use "./variables";
+
+.topNav {
+    ul {
+        display: flex;
+        li {
+            margin-right: 3rem;
+            list-style: none;
+            margin-top: 3rem;
+            a:hover,
+            &:focus {
+                border-bottom: 2px solid variables.$yellow;
+            }
+            
+            a {
+                text-decoration: none;
+                color: white;
+                font-family: 'Roboto', serif;
+                font-weight: bold;
+                font-size: 0.8rem;
+                padding: 0.2rem;
+
+            }
+        }
+    }
+}
+

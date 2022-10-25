@@ -1,0 +1,45 @@
+@use "./variables";
+
+h1 {
+    font-family: english, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: variables.$yellow;
+    font-weight: lighter;
+
+}
+
+h2 {
+    font-family: english, sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: variables.$navyBlue;
+}
+
+h3 {
+    font-family: english, sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.items p {
+    font-family: 'Roboto', serif;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
+.blog p, .getInTouch p {
+    margin-bottom: 4rem;
+}
+
+.programsText, .locationText {
+    p {
+        color: white;
+        font-family: 'Roboto', serif;
+        font-size: 0.9rem;
+    }
+    h3 {
+        color: white;
+    }
+}
