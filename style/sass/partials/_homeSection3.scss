@@ -7,14 +7,38 @@
     .daysText {
         width: 60%;
         margin: 0 auto;
+        padding-top: 100px;
         h3 {
         text-align: center;
         color: variables.$navyBlue;
+        margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        
+
+        .findOut {
+            background-color: variables.$yellow;
+            padding: 5px;
+            text-decoration: none;
+            color: variables.$navyBlue;
+            font-family: english, sans-serif;
+            font-weight: light;
+            display: block;
+            width: 150px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 30px;
+            margin: 0 auto;
         }
     }
 }
 
-.bannerImg {
+.banner {
+    height: 40vh;
+    .bannerImg {
     background-image: url(../Boat-Ride-Adventures-final-assets/banner.jpg);
-    height: 30vh;
+    max-width: 1000px;
+    }
 }

@@ -379,6 +379,7 @@ header .headerFlex h1 {
   height: 300px;
   -webkit-box-shadow: 10px 10px #FDD908;
           box-shadow: 10px 10px #FDD908;
+  margin-top: -20px;
 }
 .programs .programsText {
   width: 30%;
@@ -402,6 +403,7 @@ header .headerFlex h1 {
   height: 300px;
   -webkit-box-shadow: -10px 10px #FDD908;
           box-shadow: -10px 10px #FDD908;
+  margin-bottom: -20px;
 }
 .locations .locationText {
   width: 30%;
@@ -427,13 +429,35 @@ header .headerFlex h1 {
 .days .daysText {
   width: 60%;
   margin: 0 auto;
+  padding-top: 100px;
 }
 .days .daysText h3 {
   text-align: center;
   color: #0D457F;
+  margin-bottom: 20px;
+}
+.days .daysText p {
+  margin-bottom: 20px;
+}
+.days .daysText .findOut {
+  background-color: #FDD908;
+  padding: 5px;
+  text-decoration: none;
+  color: #0D457F;
+  font-family: english, sans-serif;
+  font-weight: light;
+  display: block;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin: 0 auto;
 }
 
-.bannerImg {
+.banner {
+  height: 40vh;
+}
+.banner .bannerImg {
   background-image: url(../Boat-Ride-Adventures-final-assets/banner.jpg);
-  height: 30vh;
+  max-width: 1000px;
 }
